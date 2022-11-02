@@ -1,9 +1,10 @@
-import Counter from "./components/usestate/Counter";
+import "./App.css";
+import ParentComponent from "./components/useContext/ParentComponent";
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <ParentComponent />
     </div>
   );
 }

@@ -1,12 +1,7 @@
 import "./App.css";
-import ParentComponent from "./components/useContext/ParentComponent";
 
 function App() {
-  return (
-    <div className="App">
-      <ParentComponent />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
